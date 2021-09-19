@@ -95,6 +95,11 @@ while True:
     elif count == 7: 
         print("\nHmm... O limite de tentativas foi excedido, tente novamente!")
         break
+    else:
+        print("\nLembre-se de digitar apenas opçãos 1 ou 2")
+        print("1 – Caminho vermelho (ou direita)")
+        print("2 – Caminho preto (ou esquerda)")
+        time.sleep(2)
 
 
     sala = caminhos[sala]()
